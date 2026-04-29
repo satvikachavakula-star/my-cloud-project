@@ -4,15 +4,33 @@
   <meta charset="UTF-8">
   <title>About Me</title>
   <style>
-    body { font-family: Arial; background: #fff8dc; text-align: center; }
-    h1 { color: #2c3e50; }
-    p { font-size: 18px; color: #34495e; }
+    body { font-family: Arial; background: #fff8dc; margin: 0; padding: 0; }
+    header { background: #2c3e50; color: white; padding: 20px; text-align: center; }
+    nav a { text-decoration: none; color: white; margin: 0 15px; font-weight: bold; }
+    nav a:hover { color: #16a085; }
+    .card { background: white; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.2); padding: 20px; margin: 40px auto; width: 70%; text-align: center; }
+    footer { background: #2c3e50; color: white; text-align: center; padding: 10px; margin-top: 20px; }
   </style>
 </head>
 <body>
-  <h1>About Me</h1>
-  <p>My name is Satvika Chavakula.</p>
-  <p>I am a Full Stack Web Development Intern.</p>
-  <p>This page describes my background and internship journey.</p>
+  <header>
+    <h1>About Me</h1>
+    <nav>
+      <a href="index.html">Home</a> |
+      <a href="about.html">About</a> |
+      <a href="projects.html">Projects</a> |
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <div class="card">
+    <p>My name is Satvika Chavakula.</p>
+    <p>I am a Full Stack Web Development Intern.</p>
+    <p>This page describes my background, skills, and internship journey.</p>
+  </div>
+
+  <footer>
+    <p>© 2026 Satvika Chavakula — My Cloud Project</p>
+  </footer>
 </body>
 </html>
